@@ -11,6 +11,7 @@
 # include <poll.h>
 # include <fcntl.h>
 # include "Server.hpp"
+# define POLLFDS_CAPACITY 3
 
 void  errmsg(std::string msg);
 
